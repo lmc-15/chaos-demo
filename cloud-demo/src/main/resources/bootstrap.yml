@@ -71,7 +71,7 @@ mybatis-plus:
     map-underscore-to-camel-case: true
     cache-enabled: false
 server:
-  port: 88831 # 监听端口
+  port: 8883 # 监听端口
 chaos:
   swagger:
     scan: com.lmc
