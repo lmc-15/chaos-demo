@@ -6,13 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="chaos-demo" />
+        <module name="boot-demo" />
+        <module name="cloud-demo" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="chaos-demo" options="-parameters" />
+      <module name="boot-demo" options="-parameters" />
+      <module name="chaos-demo" options="" />
+      <module name="cloud-demo" options="-parameters" />
     </option>
   </component>
 </project>
