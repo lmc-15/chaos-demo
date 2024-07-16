@@ -12,7 +12,7 @@ spring:
     driver-class-name:
     url: jdbc:mysql://127.0.0.1:3306/chaos?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
     username: admin
-    password: root123
+    password: root123 1
   flyway:
     enabled: true # 正式环境才开启
     clean-disabled: true # 禁用数据库清理
